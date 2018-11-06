@@ -4,8 +4,20 @@ using UnityEngine;
 
 public class RiddlesButtonScript : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+
+    //testing to make sure all buttons linked up
+    public void ClickTest()
+    {
+        Debug.Log("Riddles button clicked");
+    }
+
+    //single argument onclick function
+    public void ClickTest2(string text)
+    {
+        Debug.Log(text);
+    }
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
